@@ -1,0 +1,64 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+/* actual style */
+
+nav {
+  height: 5rem;
+  background-color: #F1EB74;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Barrio";
+  font-size: 2rem;
+  color: #E92528;
+}
+
+.form-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 0.5rem;
+}
