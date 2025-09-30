@@ -55,10 +55,62 @@ nav {
   font-family: "Barrio";
   font-size: 2rem;
   color: #E92528;
+  cursor: pointer;
 }
 
 .form-icon {
   height: 2.5rem;
   width: 2.5rem;
   margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card-container {
+  height: 100%;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: #FBF4DD;
+  padding: 1.5rem;
+}
+
+.title,
+.author,
+.pages,
+.readStatus {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+span {
+  font-weight: 300;
+}
+
+button {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.4rem;
+  background-color: #C1EE4F;
+  border: 0px;
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A7E802;
+  /* box-shadow: 10px 9px 20px 0 rgb(0, 0, 0, 0.25); */
 }
