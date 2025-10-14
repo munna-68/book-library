@@ -86,5 +86,41 @@
       </div>
     </div>
   </div>
+
+  <div class="form-container hidden">
+    <div class="form">
+      <div class="form-ele">
+          <h1>Add New Book To Library</h1>
+
+        <div class="form-input">
+          <label for="title">Title:</label>
+          <input type="text" name="title" id="title" placeholder="eg. Harry Potter">
+        </div>
+
+        <div class="form-input">
+          <label for="author">Author:</label>
+          <input type="text" name="author" id="author" placeholder="eg. J.K. Rowling">
+        </div>
+
+        <div class="page-read">
+            <div class="form-input">
+              <label for="pages">Pages:</label>
+              <input type="number" name="pages" id="pages" placeholder="eg. J.K. Rowling" min="1">
+           </div>
+
+          <div class="form-input">
+            <label for="has-read">Had Read:</label>
+            <select name="has-read" id="has-read">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

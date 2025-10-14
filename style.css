@@ -114,3 +114,67 @@ button:hover {
   background-color: #A7E802;
   /* box-shadow: 10px 9px 20px 0 rgb(0, 0, 0, 0.25); */
 }
+
+h1 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 2rem;
+  color: #E92528;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+label {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.form-input {
+  margin-bottom: 15px;
+}
+
+input,select {
+  height: 45px;
+  width: 100%;
+  border: none
+}
+
+.page-read {
+  display: flex;
+  justify-content: fle;
+}
+
+#pages, #has-read {
+  width: 140px
+}
+
+.form {
+  background-color: #F1EB74;
+  padding: 20px;
+  height: 34rem;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-ele {
+  width: 400px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: #ffffff8c;
+}
+
+.form-container.hidden {
+  display: none;
+}
