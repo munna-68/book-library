@@ -137,12 +137,12 @@ label {
 input,select {
   height: 45px;
   width: 100%;
-  border: none
+  border: none;
+  padding-left: 10px;
 }
 
 .page-read {
   display: flex;
-  justify-content: fle;
 }
 
 #pages, #has-read {
@@ -178,7 +178,7 @@ input,select {
 }
 
 .form-container.hidden {
-  /* display: none; */
+  display: none;
 }
 
 .x-btn {
