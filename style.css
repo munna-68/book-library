@@ -168,6 +168,7 @@ select {
 
 .page-read {
   display: flex;
+  justify-content: space-between;
 }
 
 #pages,
@@ -217,7 +218,77 @@ select {
   right: 20px;
   background: none;
   border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.3s;
+}
+
+.x-btn:hover {
+  background-color: transparent;
+  color: #e92528;
+}
+
+/* Responsive Design */
+@media (max-width: 850px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form {
+    width: 90vw;
+    height: auto;
+    padding: 3rem 2rem;
+  }
+
+  .form-ele {
+    width: 100%;
+  }
+
+  .page-read {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .body {
+    padding: 1rem;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .page-read {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #pages,
+  #has-read {
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .title,
+  .author,
+  .pages,
+  .readStatus {
+    font-size: 1.2rem;
+  }
 }
